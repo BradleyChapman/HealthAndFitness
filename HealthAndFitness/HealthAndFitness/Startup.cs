@@ -30,7 +30,7 @@ namespace HealthAndFitness
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello GitHub World!");
+                await context.Response.WriteAsync("GitHub World!");
             });
         }
     }
